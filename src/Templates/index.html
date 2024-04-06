@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/estilos.css')}}">
+    
+    <title>Biografias</title>
+</head>
+<body>
+    
+    <section id="Biografia1">
+        <h1>Biografia</h1>
+        <div style="text-align: center;"> 
+        <img src="static/imagenes/Foto1.jpg" alt="Brayan Baquero" width="340" height="474" >
+        </div>
+
+        <p id="parrafo-nombre">Bryan Estiven Baquero</p>
+        <p>Soy estudiante de ingenieria de sistemas de noveno semestre apacionado por el aprendizaje y busqueda de nuevos conocimientos  </p>
+
+    <section id="niñez" >
+        <h3>Niñez</h3>
+        <p>Desde muy pequeño empece mis estudios en en el colegio instituto bolivar de ubate </p>
+        <p>me e caracterizado por ser muy buen estudiante dentro de ellos con buenos puntajes</p>
+        <p>y logros que me an permitido llegar a donde estoy. e acomulado un sin numero de meritos</p>
+        <p>dentro de mi niñez asi como la participacion en numerosas actividades.</p>
+
+    </section>
+
+    <section id="Adolecencia" >
+        <h3>Adolecencia</h3>
+        <p>En mi adololecencia tuve la oportunidad de experimentar nuevas fronteras entre ellas el cambio de colegio</p>
+        <p>y el inicio de una etapa cruacial para el aprendizaje dentro del negocio de mi padre del cual se concentra</p>
+        <p>en las ventas al cliente, despege de aptitudes claves para buscaruna buena comunicacion y asertividad a la hora de vender</p>
+        <p>para ello el colegio pude enfactizar el aprobechamiento del tecnico en operacion y contabilidad finaciera. </p>
+
+    </section>
+
+    <section id="Vida universitaria" >
+        <h3>Vida universitaria</h3>
+        <p>gracias a la participacion de nuevos procesos la vida universitaria me a permitido creer en conocimeito y aprendizaje</p>
+        <p>en el ajuste de la nueva era y el despliegue tecnologico que nos abarca con ello  mis estudios como ingeniero me han permitido  </p>
+        <p> abarcar el sinmunero de aplicaciones de la nueva tecnologia y el aprovechamiento de las mismas dentro de otros entornos</p>
+
+    </section>
+
+    <section id="pasatiempos" >
+        <h3>Pasatiempos</h3>
+        <p>mis pasatiempos favoritos se describen se estructuran con relacion al deporte futbol,tenis,volleball,</p>
+        <p>asi como la musica en cuanto a escucharla e interpretarla y peliculas</p>
+
+    </section>
+    <section id="metas">
+        <h3>Metas</h3>
+        <p>dentro de mi proposito para los proximos 5 años mis metas se relacionan basados en la costruccion </p>
+        <p>de una micro empresa con efoque tecnologicoestructurado con ventas y comercializacion de productos </p>
+        <p> dentro del area tecnologica asi como las metas mas proximas son culminar mis estudios universitarios</p>
+        <p> y viviendo parte de la experiencia dentro del mundo profesional</p> 
+    </section>
+      <hr>
+    <section id="Biografia1">
+        <h1>Biografia</h1>
+        <div style="text-align: center;"> 
+        <img src="static/imagenes/brayan.jpg" alt="Brayan cristancho" width="340" height="474" >
+        </div>
+
+        <p id="parrafo-nombre">Brayan David cristancho niño</p>
+        <p>Soy estudiante de ingenieria de sistemas. Actualmente cursando 9 semestre con proyecciones a futuro y con capacidad de aprender</p>
+
+    <section id="niñez" >
+        <h3>Niñez</h3>
+        <p>En mi niñez empece a estudiar en la escuela siberia del municipio de fuquene </p>
+        <p>a los 6 años caracterizandome por ser un niño inquieto y curioso. Termine la </p>
+        <p>primaria en el 2011 con buenas calificaciones y a la espectativa de inciar el </p>
+        <p>colegio con nuevas personas y un diferente ambiente</p>
+
+    </section>
+
+    <section id="Adolecencia" >
+        <h3>Adolecencia</h3>
+        <p>En mi adololecencia estudie en el colegio de capellania aprtir del 2012, me destaque por ser un buen</p>
+        <p>estudiante, reflejando la disciplina, la actitud para aprender y la honestidad en cada momento de mi</p>
+        <p>formacion. Despues de los 6 años sali del colegio como tecnico en asistencia administrativa, graduandome</p>
+        <p>con mis compañeros de clase y con espectativa de iniciar el periodo universitario </p>
+
+    </section>
+
+    <section id="Vida universitaria" >
+        <h3>Vida universitaria</h3>
+        <p>Mi vida universitaria en la carrera de Ingeniería de Sistemas ha sido una experiencia de constante aprendizaje </p>
+        <p>y crecimiento. Desde el primer día, me sumergí en un mundo lleno de desafíos y oportunidades, donde cada clase, </p>
+        <p>proyecto y laboratorio me ha brindado la oportunidad de expandir mis conocimientos y habilidades. </p>
+
+    </section>
+
+    <section id="pasatiempos" >
+        <h3>Pasatiempos</h3>
+        <p>Mis pasatiempos los resumo en compartir con mis seres queridos, realizando actividades, caminatas</p>
+        <p>peliculas en familia y un espacio para mis actividades diarias</p>
+
+    </section>
+    <section id="metas">
+        <h3>Metas</h3>
+        <p>Mis metas se centralizan en culminar con exito mi carrera profesional, apartir de alli anhelo adquirir </p>
+        <p>mas conocimientos en python y en seguridad de la informacion. Para luego dar un gran paso e incorporarme </p>
+        <p>y ser parte de la policia nacional y lograr obtener la profesion de oficial</p>
+    </section>
+
+    <section id="Registro">
+
+        <h3 id="registro">Registro y Comentarios</h3>
+        <form action="guardar_personas" method="post">
+            <br>
+            <br>
+            <B>Nombre</B>
+            <input type="text" name="nombre">
+            <br>
+            <br>
+
+            <B>Correo</B>
+            <input type="text" name="correo">
+            <br>
+            <br>
+            
+
+            <B>Comentario</B>
+            <input type="text" name="comentario">
+            <br>
+            <br>
+
+            <button type="submit">Enviar </button>
+        </form>
+    </section>
+
+</body>
+</html>

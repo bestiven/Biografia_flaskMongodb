@@ -1,0 +1,57 @@
+
+body {
+    background-color: black;
+  }
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px
+  }
+img{
+    border-radius: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+p {
+   color: white;
+   text-align: center;
+}
+
+h3 {
+    color: aqua;
+    text-align: center;
+}
+#parrafo-nombre{
+    font-size: 25px
+}
+
+B{
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: left; /* Centrar el contenido del formulario */
+  }
+
+#registro{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px
+}
+input{
+    justify-content: center;
+    align-items: center;
+}
+
+
